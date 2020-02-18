@@ -7,6 +7,9 @@ that doesn't learn.)
 '''
 from switchyard.lib.userlib import *
 
+
+''' Limited Storage for Rules '''
+
 def main(net):
     my_interfaces = net.interfaces() 
     mymacs = [intf.ethaddr for intf in my_interfaces]
